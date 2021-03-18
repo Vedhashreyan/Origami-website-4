@@ -1,0 +1,63 @@
+.header{
+    text-align: center;
+}
+.grid img{
+    border: 2px solid #000000;
+    border-radius: 50px;
+}
+.grid{
+    display:flex;
+    flex-wrap: wrap;
+    font-family:cursive;
+
+   
+}
+.origami{
+    border-radius: 50px;
+    background-color: #ffffff;
+    transform: scale(0.8);
+    width: 310px;
+    font-family: fantasy;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: 000000;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #000000;
+}
+body{
+    background-color: #f5deb3;
+    font-family:Lucida Handwriting
+}
+li{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.origami:hover{
+    visibility: 20px;;
+    transform: scale(1);
+    opacity: 0.5;
+}
+
+a:link{
+    color:cadetblue;
+}
+a:visited{
+    color:orangered
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+
+
+
+
+
+ 
